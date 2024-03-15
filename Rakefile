@@ -1,6 +1,6 @@
-require "bundler/gem_tasks"
-require "rake/testtask"
-require 'find'
+require "bundler/gem_tasks" # optional: adds common rake tasks
+require "rake/testtask" # optional: builds list of tests automatically
+require 'find' # needed for the specific 'Print file' tasks below
 
 desc 'Say hello'
 task :hello do
